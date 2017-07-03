@@ -31,6 +31,7 @@ class DetailViewController: UIViewController {
     
     
     var movie: [String: Any]?
+    var movies: [Movie] = []
     
     
     override func viewDidLoad() {
